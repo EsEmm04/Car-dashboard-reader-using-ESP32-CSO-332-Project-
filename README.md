@@ -44,9 +44,13 @@ The system retrieves:
 **📊 Results**
 
 Accuracy achieved: ~72% (tested across multiple dashboard images).
+
+
   
 Input :
 <img width="709" height="503" alt="image" src="https://github.com/user-attachments/assets/de5833dd-547b-4242-900a-058c448d1ebe" />
+
+
 
 Output : 
 <img width="792" height="437" alt="image" src="https://github.com/user-attachments/assets/fd556888-fbab-451f-a134-7897a57af7f7" />
