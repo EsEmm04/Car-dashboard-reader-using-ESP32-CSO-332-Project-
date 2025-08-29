@@ -1,5 +1,6 @@
-Ubiquitous Computing – Dashboard Data Extraction
-📌 About the Project
+**Ubiquitous Computing – Dashboard Data Extraction**
+
+**📌 About the Project**
 
 This project focuses on extracting key information from car dashboard images using image processing techniques in Python.
 The system retrieves:
@@ -9,14 +10,14 @@ The system retrieves:
 ⏱ Time
 📍 Distance travelled
 
-⚙️ Features
+**⚙️ Features**
 
 1) Speedometer Detection → Detects needle position using edge detection and Hough Lines, maps it to calibrated speed.
 2) Time & Distance Extraction → Uses OCR (Tesseract) with preprocessing (grayscale, normalization, blur, ROI).
 3) Fuel Gauge Detection → Pixel counting after thresholding to calculate fuel percentage.
 4) Database & Web Access → Data stored in MongoDB and accessible via a hosted Glitch website.
 
-🖥️ Image Processing Pipeline
+**🖥️ Image Processing Pipeline**
 
 🔹 Speed Detection
 - Convert image to grayscale
@@ -39,6 +40,10 @@ The system retrieves:
 - ROI selection
 - Pixel counting (cv2.countNonZero)
 - Ratio → fuel percentage
+
+**📊 Results**
+
+Accuracy achieved: ~72% (tested across multiple dashboard images).
   
 Input :
 <img width="709" height="503" alt="image" src="https://github.com/user-attachments/assets/de5833dd-547b-4242-900a-058c448d1ebe" />
